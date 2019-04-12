@@ -5,4 +5,7 @@ class Fish
     @name = name
     @mood = mood
   end
+  def name
+    @name
+  end
 end
