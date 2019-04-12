@@ -8,7 +8,7 @@ class Owner
   def initialize(species, name = nil)
     @species = species
     @name = name
-    @pets = {fishes => [], dogs => [], cats => []}
+    @pets = {:fishes => [], :dogs => [], :cats => []}
     @@all << self
     @@count += 1
 
@@ -28,6 +28,6 @@ class Owner
   end
 
   def say_species
-    puts "I am #{@species}"
+    puts "I am a #{@species}"
   end
 end
