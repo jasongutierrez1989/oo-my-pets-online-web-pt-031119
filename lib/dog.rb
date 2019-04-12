@@ -1,7 +1,7 @@
 class Dog
   attr_writer :name
   attr_accessor :mood
-  def initalize(name, mood = nervous)
+  def initalize(name, mood = 'nervous')
     @name = name
     @mood = mood
   end
