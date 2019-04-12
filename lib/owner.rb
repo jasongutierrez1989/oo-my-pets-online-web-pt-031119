@@ -8,7 +8,7 @@ class Owner
   def initialize(species, name)
     @species = species
     @name = name
-    @pets = Hash.new { |hash, key| hash[key] =  }
+    
   end
   def self.all
     @@all
